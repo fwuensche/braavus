@@ -1,5 +1,7 @@
 h1 = @location.name
 
+= link_to '< Voltar', locations_path
+
 p = @location.address
 
 p = link_to 'Reserve via whatsapp', "https://wa.me/#{@location.whatsapp}"
